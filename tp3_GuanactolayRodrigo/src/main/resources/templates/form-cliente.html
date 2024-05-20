@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<title>Formulario de Cliente</title>
+		<link rel="stylesheet" href="../static/css/estilo.css">
+	</head>
+	
+	<body class="ContenidoPrincipal">
+		<header id="encabezado">
+			<h2>Registro de Cliente</h2>
+		</header>
+		
+		<form class="formulario" action="#" method="post"> 
+			<label class="etiqueta" for="dni">DNI:</label>
+			<input type="number" id="dni" name="dni" required><br>
+			 
+			 <label for="nombres">Nombres:</label>
+			 <input type="text" id="nombres" name="nombres" required><br>
+			 
+			 <label for="apellidos">Apellidos:</label>
+			 <input type="text" id="apellidos" name="apellidos" required><br>
+			 
+			 <label for="genero">Genero:</label>
+			 <input type="radio" id="genero" name="genero">Masculino
+			 <input type="radio" id="genero" name="genero">Femenino
+			 <input type="radio" id="genero" name="genero">X<br>
+			 
+			 <label for="correo">Correo electronico:</label>
+			 <input type="text" id="correo" name="correo" required><br>
+			 
+			  <label for="domicilio">Domicilio:</label>
+			 <input type="text" id="domicilio" name="domicilio" required><br>
+			 
+			 <label for="fechaNacimiento">Fecha de nacimiento:</label>
+			 <input type="date" id="fechaNacimiento" name="fechaNacimiento" required><br>
+			 
+			 <label for="provincia">Provincia:</label>
+			 <select id="provincia" name="provincia" required>
+			 	<option value="JUJUY">Jujuy</option>
+			 	<option value="SALTA">Salta</option>
+			 	<option value="TUCUMAN">Tucuman</option>
+			 	<option value="MISIONES">Misiones</option>
+			 	<option value="CORDOBA">Cordoba</option>
+			 	<option value="CORDOBA">La Rioja</option>	
+			 	<option value="CORDOBA">Tierra del Fuego</option>
+			 	<option value="CORDOBA">Catamarca</option>
+			 	<option value="CORDOBA">Corrientes</option>
+			 	<option value="CORDOBA">Santiago del Estero</option>
+			 </select><br>
+			 
+			<label for="numeroCelular">Numero de celular:</label>
+			<input type="number" id="numeroCelular" name="numeroCelular" required><br>
+			
+			<label for="categorias">Categorias de interes: </label><br>
+			 <label>Diseño</label>
+			 <input type="checkbox" name="categorias">
+			 <label>Logica</label>
+			 <input type="checkbox" name="categorias">
+			 <label>Desarrollo</label>
+			 <input type="checkbox" name="categorias">
+			  <label>Analisis</label>
+			 <input type="checkbox" name="categorias"><br>
+			 
+			 <label for="sugerencias">Sugerencias para la empresa:</label> <br>
+			 <textarea name="sugerencias" id="sugerencias" rows="6" cols="50"></textarea><br>
+			  
+			 <label for="password">Contraseña:</label>
+			 <input type="text" id="password" name="password" required><br>
+			
+			 
+			 <label for="aceptarCondiciones">Aceptar los terminos y conidiciones:</label>
+			 <input type="checkbox" id="aceptarCondiciones" name="aceptarCondiciones" checked><br>
+			 
+			  <label for="aceptarInformacion">Aceptar recibir informacion relativa a la empresa:</label>
+			 <input type="checkbox" id="aceptarInformacion" name="aceptarInformacion" checked><br>
+			 
+			 
+			<button class="boton" type="submit">Enviar</button>
+		</form>
+		<footer id="piePagina">
+		
+		Contacto:<br>
+		 guanactolayrodrigo6@gmail.com<br>
+		<a class="enlaces" href="https://www.instagram.com/rodry.g_/">Instagram</a>
+		</footer>
+	</body>
+</html>
