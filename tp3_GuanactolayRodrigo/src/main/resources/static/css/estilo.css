@@ -70,3 +70,24 @@ a:hover{
 	color: #000000;
 	border-bottom: 1px solid #000000;
 }
+
+.formulario{
+	text-align: center;
+	line-height: 35px;
+}
+
+label{
+	background-color: #90f795;
+	border-radius: 60px;
+	font-family: cursive;
+}
+
+input{
+	border-radius: 60px;
+}
+.boton{
+	border-radius: 60px;
+	background-color: #8e531e;
+	padding: 10px 20px;
+	font-family: cursive;
+}
