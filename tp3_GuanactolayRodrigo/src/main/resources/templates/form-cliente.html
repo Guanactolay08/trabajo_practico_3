@@ -21,10 +21,10 @@
 			 <label for="apellidos">Apellidos:</label>
 			 <input type="text" id="apellidos" name="apellidos" required><br>
 			 
-			 <label for="genero">Genero:</label>
-			 <input type="radio" id="genero" name="genero">Masculino
-			 <input type="radio" id="genero" name="genero">Femenino
-			 <input type="radio" id="genero" name="genero">X<br>
+			 <label>Genero:</label>
+			 <input type="radio" id="genero1" name="genero">Masculino
+			 <input type="radio" id="genero2" name="genero">Femenino
+			 <input type="radio" id="genero3" name="genero">X<br>
 			 
 			 <label for="correo">Correo electronico:</label>
 			 <input type="text" id="correo" name="correo" required><br>
@@ -37,6 +37,7 @@
 			 
 			 <label for="provincia">Provincia:</label>
 			 <select id="provincia" name="provincia" required>
+			 	<option value="">-</option>
 			 	<option value="JUJUY">Jujuy</option>
 			 	<option value="SALTA">Salta</option>
 			 	<option value="TUCUMAN">Tucuman</option>
@@ -52,15 +53,15 @@
 			<label for="numeroCelular">Numero de celular:</label>
 			<input type="number" id="numeroCelular" name="numeroCelular" required><br>
 			
-			<label for="categorias">Categorias de interes: </label><br>
+			<label>Categorias de interes: </label><br>
 			 <label>Diseño</label>
-			 <input type="checkbox" name="categorias">
+			 <input type="checkbox" id="categoria1" name="categorias">
 			 <label>Logica</label>
-			 <input type="checkbox" name="categorias">
+			 <input type="checkbox" id="categoria2" name="categorias">
 			 <label>Desarrollo</label>
-			 <input type="checkbox" name="categorias">
+			 <input type="checkbox" id="categoria3" name="categorias">
 			  <label>Analisis</label>
-			 <input type="checkbox" name="categorias"><br>
+			 <input type="checkbox" id="categoria4" name="categorias"><br>
 			 
 			 <label for="sugerencias">Sugerencias para la empresa:</label> <br>
 			 <textarea name="sugerencias" id="sugerencias" rows="6" cols="50"></textarea><br>
